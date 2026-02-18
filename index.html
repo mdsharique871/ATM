@@ -1,0 +1,520 @@
+<!--DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxury ATM Services</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0c0c0c, #1a1a1a);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(255, 215, 0, 0.05);
+    border: 1px solid rgba(255, 215, 0, 0.4);
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 60px rgba(255, 215, 0, 0.15);
+    overflow: hidden;
+}
+
+/* Left Section */
+.left {
+    flex: 1 1 450px;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.left p {
+    font-size: 16px;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+/* Right Section */
+.right {
+    flex: 1 1 450px;
+    padding: 60px;
+    background: rgba(0,0,0,0.4);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 14px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    border: 1px solid gold;
+    background: #111;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #ffd700;
+    box-shadow: 0 0 10px gold;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.button-group a {
+    flex: 1;
+    text-align: center;
+    padding: 14px;
+    border-radius: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* WhatsApp Button */
+.whatsapp {
+    background: #25D366;
+    color: white;
+}
+
+.whatsapp:hover {
+    background: #1ebe5b;
+    transform: scale(1.05);
+}
+
+/* Email Button */
+.email {
+    background: gold;
+    color: black;
+}
+
+.email:hover {
+    background: #ffd700;
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media(max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        padding: 40px;
+    }
+
+    .left h1 {
+        font-size: 32px;
+    }
+}
+
+@media(max-width: 500px) {
+    .left, .right {
+        padding: 25px;
+    }
+
+    .left h1 {
+        font-size: 26px;
+    }
+
+    input, textarea {
+        font-size: 13px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="left">
+        <h1>Premium ATM Solutions</h1>
+        <p>
+            Secure • Profitable • Reliable ATM Installation & Referral Program.
+            Partner with us and grow your passive income with trusted ATM deployment services.
+            Contact us today for premium business opportunities.
+        </p>
+    </div>
+
+    <div class="right">
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <textarea rows="4" placeholder="Your Inquiry"></textarea>
+
+            <div class="button-group">
+                <a class="whatsapp"
+                   href="https://wa.me/919999999999?text=Hello%20I%20am%20interested%20in%20ATM%20services%20and%20referral%20program"
+                   target="_blank">
+                   Refer on WhatsApp
+                </a>
+
+                <a class="email"
+                   href="mailto:info@luxuryatm.com">
+                   Send Email Inquiry
+                </a>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MB Enterprises | ATM Installation & Franchise</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0c0c0c;
+    color:#fff;
+}
+
+/* HEADER */
+header{
+    position:fixed;
+    width:100%;
+    background:rgba(0,0,0,0.9);
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid rgba(255,215,0,0.3);
+    z-index:1000;
+}
+.logo{
+    font-family:'Playfair Display',serif;
+    font-size:22px;
+    color:gold;
+    font-weight:700;
+}
+nav a{
+    color:#ddd;
+    margin-left:25px;
+    text-decoration:none;
+    font-size:14px;
+}
+nav a:hover{color:gold;}
+
+/* HERO */
+.hero{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:0 20px;
+    background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+    url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d') center/cover no-repeat;
+}
+
+}
+.hero h1{
+    font-size:48px;
+    color:gold;
+    margin-bottom:20px;
+}
+.hero p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.6;
+    color:#ccc;
+}
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 30px;
+    background:gold;
+    color:black;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+}
+.btn:hover{background:#ffd700;}
+
+/* SECTION */
+section{
+    padding:80px 8%;
+}
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+.section-title h2{
+    font-size:32px;
+    color:gold;
+}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+.card{
+    background:#111;
+    padding:25px;
+    border-radius:15px;
+    border:1px solid rgba(255,215,0,0.2);
+}
+
+img{
+    transition:0.4s;
+}
+img:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 30px rgba(255,215,0,0.3);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:gold;
+}
+
+/* LIST STYLE */
+ul{
+    list-style:none;
+    line-height:1.8;
+}
+ul li::before{
+    content:"✔ ";
+    color:gold;
+}
+
+/* CONTACT */
+.contact-box{
+    background:#111;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+}
+.contact-box a{
+    display:block;
+    margin:12px 0;
+    text-decoration:none;
+    color:#fff;
+}
+.contact-box a:hover{color:gold;}
+
+/* FOOTER */
+footer{
+    background:#000;
+    padding:40px 8%;
+    text-align:center;
+    border-top:1px solid rgba(255,215,0,0.2);
+}
+footer p{color:#aaa;font-size:13px;}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .hero h1{font-size:32px;}
+    header{padding:15px 5%;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">MB Enterprises</div>
+<nav>
+<a href="#services">Services</a>
+<a href="#franchise">Franchise</a>
+<a href="#security">Security</a>
+<a href="#contact">Start Enquiry</a>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h1>Precision Engineering for Financial Mobility</h1>
+<p>Installation • Operational Excellence • 24/7 Maintenance</p>
+<a href="#contact" class="btn">Start Enquiry</a>
+</div>
+</section>
+
+<section id="services">
+<div class="section-title">
+<h2>Our Services</h2>
+
+<section id="terminals">
+<div class="section-title">
+<h2>ATM Terminals</h2>
+</div>
+
+<div class="grid">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1581090700227-4c4f50b2b7d3" style="width:100%;border-radius:12px;margin-bottom:15px;">
+<h3>Indoor ATM Terminal</h3>
+<p>Modern EMV-compliant terminals designed for retail environments.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437b5" style="width:100%;border-radius:12px;margin-bottom:15px;">
+<h3>Outdoor ATM Unit</h3>
+<p>Weather-protected, high-security external ATM systems.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f" style="width:100%;border-radius:12px;margin-bottom:15px;">
+<h3>Touchscreen Interface</h3>
+<p>Advanced encrypted transaction processing with modern UI.</p>
+</div>
+</div>
+</section>
+
+</div>
+<div class="grid">
+<div class="card">
+<h3>ATM Deployment</h3>
+<p>Professional installation for retail stores, gas stations, hotels & shopping centers.</p>
+</div>
+<div class="card">
+<h3>Maintenance</h3>
+<p>24/7 monitoring, remote diagnostics, and rapid response technical support.</p>
+</div>
+<div class="card">
+<h3>Cash Logistics</h3>
+<p>Secure cash loading and transaction management services.</p>
+</div>
+<div class="card">
+<h3>Franchise Infrastructure</h3>
+<p>Complete ATM franchise model with ROI structure.</p>
+</div>
+</div>
+</section>
+
+<section id="franchise">
+<div class="section-title">
+<h2>Free ATM Placement Program</h2>
+</div>
+<ul>
+<li>No Upfront Cost</li>
+<li>No Equipment Purchase Required</li>
+<li>Revenue Sharing Model</li>
+<li>Dedicated Account Manager</li>
+<li>24/7 Technical Support</li>
+<li>Flexible Upgrade Options</li>
+</ul>
+</section>
+
+<section id="security">
+<div class="section-title">
+<h2>Security & Compliance</h2>
+</div>
+<div class="grid">
+<div class="card">
+<h3>PCI-DSS Compliant</h3>
+<p>Encrypted transaction processing with bank-level security.</p>
+</div>
+<div class="card">
+<h3>EMV Certified</h3>
+<p>Chip technology compliance for fraud prevention.</p>
+</div>
+<div class="card">
+<h3>ADA Compliant</h3>
+<p>Accessible financial infrastructure for all users.</p>
+</div>
+<div class="card">
+<h3>Interac Network</h3>
+<p>Connected to major financial transaction networks.</p>
+</div>
+</div>
+</section>
+
+<section>
+<div class="section-title">
+<h2>MB ATM Provides Services In</h2>
+</div>
+
+<img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad" style="width:100%;border-radius:20px;margin-bottom:40px;">
+
+<div class="grid">
+<div class="card">Hamilton</div>
+<div class="card">Ottawa</div>
+<div class="card">London</div>
+<div class="card">Kitchener</div>
+<div class="card">St. Catharines</div>
+<div class="card">Niagara Falls</div>
+<div class="card">Toronto</div>
+<div class="card">Mississauga</div>
+<div class="card">Burlington</div>
+<div class="card">Oakville</div>
+</div>
+</section>
+
+
+<section id="contact">
+<div class="section-title">
+<h2>Connect With MB Enterprises</h2>
+</div>
+<div class="contact-box">
+<a href="https://wa.me/14692332879" target="_blank">💬 WhatsApp: +1 (469) 233-2879</a>
+<a href="mailto:hasanabbas99@live.com">📧 Email: hasanabbas99@live.com</a>
+<a href="tel:+18666671377">☎ Toll-Free: +1 (866) 667-1377</a>
+<a href="tel:+14694690225">📞 Texas Office: +1 (469) 469-0225</a>
+<p style="margin-top:20px;color:gold;">⏱ Average Response Time: &lt; 5 Minutes</p>
+</div>
+</section>
+
+<section style="background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)), url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b') center/cover no-repeat; padding:100px 8%; text-align:center;">
+<h2 style="color:gold;font-size:36px;margin-bottom:20px;">Bank-Level Security Infrastructure</h2>
+<p style="max-width:700px;margin:auto;color:#ddd;">
+PCI-DSS & EMV Certified systems with encrypted processing and 24/7 monitoring.
+</p>
+</section>
+
+
+<footer>
+<p>✔ 24/7 Technical Support | ✔ PCI-DSS & EMV Certified | ✔ Trusted Since 1996 | ✔ Fast Deployment</p>
+<p>© 2025 MB Enterprises. All Technical Specifications are EMV/PCI-Compliant.</p>
+</footer>
+
+</body>
+</html>
+
